@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/png">
     <title>case1</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -11,6 +12,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+    <div class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__box">
+                <div class="modal__close"></div>
+                <form action="#" class="modal__form">  
+                    <h3 class="modal__title">Оставьте заявку</h3>              
+                    <input type="name" name="name" required placeholder="Ваше имя" class="modal__input">
+                    <input type="tel" name="phone" required placeholder="Ваше телефон" class="modal__input" id="phone">
+                    <input type="email" name="email" required placeholder="Ваш Email" class="modal__input">
+                    <button class="modal__btn">Отправить данные</button>
+                </form>
+            </div>     
+            <div class="modal__well">
+                Ваша заявка успешно отправлена
+            </div> 
+        </div>  
+    </div>     
     <header class="header">
         <div class="container">
             <div class="header__wrappers">
@@ -148,5 +166,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/jquery.maskedinput.min.js"></script>
+    <script src="JS/jquery.validate.min.js"></script>
+    <script src="JS/script.js"></script>
 </body>
 </html>

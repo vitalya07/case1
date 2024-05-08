@@ -70,6 +70,31 @@
             line-height: 38px;
         }
     }
+    .footer {
+        &__logo {
+            max-width: 245px;
+            min-height: 85px;
+        }
+        &__contacts {
+            width: 280px;
+            &-logo {
+                max-width: 60px;
+                min-height: 45px;
+            }
+            &-phone {
+                a {
+                    font-size: 20px;   
+                }
+                
+            }
+            &-mail {
+                a {
+                    font-size: 20px;
+                }
+                
+            }
+        }
+    }
 }
 @media(max-width: 1200px) {
     .container {
@@ -165,6 +190,36 @@
            
         }
     }
+    .footer {
+        &__logo {
+            max-width: 165px;
+            min-height: 65px;         
+        }
+        &__contacts {
+            width: 200px;
+            &-logo {
+                max-width: 40px;
+                height: 40px;
+                img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            &-phone {
+                a {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+                
+            }
+            &-mail {
+                a {
+                    font-size: 14px;   
+                }
+                
+            }
+        }
+    }   
 }
 @media(max-width: 993px) {
     .container {
@@ -381,6 +436,32 @@
            
         }
     }
+    .footer {
+        &__contacts {
+            width: 180px;
+            &-logo {
+                max-width: 40px;
+                height: 40px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            &-phone {
+                a {
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+                
+            }
+            &-mail {
+                a {
+                    font-size: 12px;   
+                }
+                
+            }
+        }
+    }   
 }
 @media (max-width: 563px) {
     .container {
@@ -457,7 +538,7 @@
     }
     .premit {
         &__title {
-            max-width: 402px;
+            max-width: 310px;
             font-size: 30px;
         }
         &__wrapper {
@@ -497,6 +578,32 @@
            
         }
     }
+    .footer {
+        &__contacts {
+            width: 150px;
+            &-logo {
+                max-width: 40px;
+                height: 40px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            &-phone {
+                a {
+                    font-size: 10px;
+                    line-height: 18px;
+                }
+                
+            }
+            &-mail {
+                a {
+                    font-size: 10px;   
+                }
+                
+            }
+        }
+    }   
 }
 @media (max-width: 360px) {
     .container {width: 320px;} 
@@ -519,7 +626,7 @@
     }
     .premit {
         &__title {
-            max-width: 402px;
+            max-width: 210px;
             font-size: 20px;
             line-height: 25px;
         }
