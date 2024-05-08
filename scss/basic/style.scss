@@ -14,8 +14,16 @@ button {
     max-width: 1600px;
     margin: 0 auto;
 }
+.container__content {
+    max-width: 1600px;
+    margin: 120px auto 0 auto;
+    background: linear-gradient(181.02deg, rgba(37, 37, 37, 0.8) 84.75%, rgba(217, 217, 217, 0.8) 119.23%);
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import "../block/header";
 @import "../block/basic";
+@import "../block/reasons";
 
 @import "media"

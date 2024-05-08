@@ -1,0 +1,177 @@
+.reasons {
+    position: relative;
+    padding-top: 37px;
+    &__title {
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.09px;
+        text-align: left;
+        color: #FFFFFF;
+        margin: 0 auto;
+        max-width: 1311px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        width: 515px;
+        height: 654px;
+        border-radius: 0px 0px 40px 40px;
+        background: #D9D9D9;
+        // margin-top: 120px;
+        position: relative;
+        &-img {
+            width: 452px;
+            height: 280px;
+            border-radius: 20px;
+            position: absolute;
+            top: -87px;
+            left: 50%;
+            transform: translateX(-50%);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &-info { 
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.73px;
+            text-align: left;
+            color: #000;
+            display: block;
+            width: 418px;
+            height: 234px;
+           position: absolute;
+           left: 50%;
+           transform: translateX(-50%);
+           top: 290px;
+                
+        }
+          
+    }
+    &__info {
+        max-width: 1389px;
+        margin: 0 auto;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.73px;
+        text-align: left;
+        color: #fff;
+    }
+}
+.premit {
+    &__title {
+        max-width: 500px;
+        margin: 42px auto 0 auto;
+        border-bottom: 4px solid #EF7B00;       
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58.09px;
+        text-align: left;
+        color: #fff;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 116px;
+    }
+    &__img {
+        width: 709px;
+        height: 832px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__lists {
+        list-style-type: none;
+        max-width: 783px;
+    }
+    &__list {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.73px;
+        text-align: left;
+        color: #fff;
+        margin-top: 10px;
+        position: relative;
+        &::before {
+            content: "";
+            width: 40px;
+            height: 3px;
+            position: absolute;
+            top: 18px;
+            left: -45px;
+            background-color: #fff;
+        }
+    }
+    &__bg {
+        width: 100%;
+        max-height: 485px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.push {
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 65px;
+    }
+    &__consultation {
+        width: 627px;
+        height: 65px;
+        border-radius: 14px;
+        border: 1px solid #fff;
+        background: linear-gradient(152.68deg, #EF7B00 21.74%, #F0E9E9 132.29%);
+        box-shadow: 8px 8px 4px 0px #00000066;
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 33.89px;
+        text-align: center;
+        color:#000;
+        &:focus {
+            outline: none;
+        }
+
+    }
+    &__video {
+        width: 429px;
+        height: 65px;
+        border-radius: 14px;
+        border: 1px solid #fff;
+        background: linear-gradient(152.68deg, #EF7B00 21.74%, #F0E9E9 132.29%);
+        box-shadow: 8px 8px 4px 0px #00000066;
+        a {
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 33.89px;
+            text-align: center;
+            color:#000;
+            text-decoration: none;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+.arrow {
+    margin-top: 45px;
+}
