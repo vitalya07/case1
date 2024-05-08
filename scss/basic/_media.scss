@@ -3,6 +3,9 @@
         width: 1200px;
     }
     .header {
+        &__wrappers {
+            max-width: 993px;
+        }
         &__logo {
             max-width: 245px;
             min-height: 85px;
@@ -21,12 +24,23 @@
             }
         }
     }
+    .basic {
+        &__image {
+            max-width: 1200px;
+        }
+        &__info {
+            font-size: 40px;
+        }
+    }
 }
 @media(max-width: 1200px) {
     .container {
         width: 993px;
     }
     .header {
+        &__wrappers {
+            max-width: 763px;
+        }
         &__logo {
             max-width: 165px;
             min-height: 65px;
@@ -46,10 +60,55 @@
             }
         }
     }   
+    .basic {
+        &__image {
+            max-width: 1200px;
+        }
+        &__info {
+            font-size: 30px;
+        }
+    }
 }
 @media(max-width: 993px) {
     .container {
         width: 763px;
+    }
+    .header {
+        &__wrappers {
+            max-width: 569px;
+        }
+        &__logo {
+            max-width: 165px;
+            min-height: 65px;
+        }
+        &__contacts {
+            width: 180px;
+            &-logo {
+                max-width: 40px;
+                height: 40px;
+            }
+            &-phone {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            &-mail {
+                font-size: 14px;
+            }
+        }
+    }   
+    .basic {
+        &__image {
+            max-width: 1200px;
+            height: 360px;
+            img {
+                border-radius: 50px;
+            }
+        }
+        &__info {
+            font-size: 25px;
+            bottom: 40px;
+            height: 60px;
+        }
     }
    
 }
@@ -57,33 +116,112 @@
     .container {
         width: 569px;
     }
+
+    .header {
+        &__wrappers {
+            max-width: 360px;
+        }
+        &__logo {
+            max-width: 100px;
+            min-height: 40px;
+        }
+        &__contacts {
+            width: 150px;
+            &-logo {
+                max-width: 40px;
+                height: 40px;
+                img {
+                    width: 80%;
+                    height: 80%;
+                }
+            }
+            &-phone {
+                font-size: 12px;
+                line-height: 16px;
+            }
+            &-mail {
+                font-size: 12px;
+            }
+        }
+    }   
+    .basic {
+        &__image {
+            max-width: 569px;
+            height: 268px;
+            img {
+                border-radius: 50px;
+            }
+        }
+        &__info {
+            font-size: 20px;
+            bottom: 40px;
+            height: 60px;
+        }
+    }
 }
 @media (max-width: 563px) {
     .container {
         width: 360px;
     }
     .header {
+        &__wrappers {
+            max-width: 320px;
+        }
+        &__wrapper {
+            padding: 10px;
+        }
         &__logo {
-            max-width: 120px;
-            min-height: 45px;
+            max-width: 100px;
+            min-height: 40px;
         }
         &__contacts {
-            margin-top: 5px;
-            width: 160px;
+            width: 150px;
             &-logo {
                 max-width: 40px;
                 height: 40px;
+                img {
+                    width: 80%;
+                    height: 80%;
+                }
             }
             &-phone {
                 font-size: 12px;
-                line-height: 12px;
+                line-height: 16px;
             }
             &-mail {
                 font-size: 12px;
             }
         }
-    } 
+    }   
+    .basic {
+        &__image {
+            max-width: 569px;
+            height: 165px;
+            img {
+                border-radius: 20px;
+            }
+        }
+        &__info {
+            font-size: 14px;
+            bottom: 40px;
+            height: 60px;
+        }
+    }
 }
 @media (max-width: 360px) {
     .container {width: 320px;} 
+    .basic {
+        &__image {
+            max-width: 569px;
+            height: 165px;
+            img {
+                border-radius: 0;
+            }
+        }
+        &__info {
+            font-size: 10px;
+            bottom: 40px;
+            height: 60px;
+        }
+    }
 }
